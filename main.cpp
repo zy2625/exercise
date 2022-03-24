@@ -9,7 +9,12 @@ int main()
     for ( i = 0; i < n; i++)
     {
         /* code */
-        for ( j = 0; j < n; j++)
+        for ( j = 0; j < n-i; j++)
+        {
+            /* code */
+            cout << " ";
+        }
+        for ( i = 0; i < count; i++)
         {
             /* code */
         }
