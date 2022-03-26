@@ -1,36 +1,20 @@
 #include <iostream>
+#include<iomanip>
 using namespace std;
 
 int main()
 {
-    int n;
-    cout << "请输入菱形的高度：";
-    cin >> n;
-    for ( int i = 0; i < n; i++)
+    for (int i = 1; i < 10; i++)
     {
         /* code */
-        for (int j = 0; j < n-i; j++)
+        for (int j = 1; j < i + 1; j++)
         {
             /* code */
-            cout << " ";
+            cout << j << 'x' << i << '=' <<setw(2) << i*j <<"  ";
         }
-        for ( int j = 0; j <= 2*i; j++)
-        {
-            /* code */
-            if (j == 0 or j ==2 * i)
-            {
-                /* code */
-                cout << '*';                
-            }
-            else
-                cout << ' ';
-            
-        }
-        
-        
-        
         cout << endl;
     }
+    
     
     return 0;
 }
