@@ -14,6 +14,19 @@ int main()
             /* code */
             cout << " ";
         }
+        for ( int j = 0; j <= 2*i; j++)
+        {
+            /* code */
+            if (j == 0 or j ==2 * i)
+            {
+                /* code */
+                cout << '*';                
+            }
+            else
+                cout << ' ';
+            
+        }
+        
         
         
         cout << endl;
