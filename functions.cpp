@@ -1,14 +1,14 @@
 #include<iostream>
 using namespace std;
 
-// int max(int,int );
-
+ int max(int,int );
+auto add = [](int a, int b) -> int {return a + b;};
 int main(){
     int a = 100;
     int b = 200;
     int ret;
     ret = max(a, b);
-    cout << ret <<endl;
+    cout << ret << endl << add(a,b) <<endl;
     return 0;
 }
 
