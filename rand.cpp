@@ -4,7 +4,6 @@
 //#include<rand>
 
 using namespace std;
-
 int main(){
     int j;
     srand((unsigned)time(NULL));
