@@ -1,7 +1,7 @@
 #include <iostream>
 #include<limits>
 using namespace std;
-// float area(float a,float b);
+float area(float a,float b);
 int main()
 {
   
