@@ -3,19 +3,7 @@
 #include<stdlib.h>
 
 using namespace std;
-// int * function(){
-
-// }
-
-int * function(){
-    static int s[10];
-    srand((unsigned) time (NULL));
-    for(int i = 0; i < 10; i++){
-        s[i] = rand();
-        cout << s[i] << " " ;
-    }
-    return s;
-}
+int * function();
 
 int main(){
     int *p;
@@ -28,3 +16,12 @@ int main(){
 
 }
 
+int * function(){
+    static int s[10];
+    srand((unsigned) time (NULL));
+    for(int i = 0; i <= 10; i++){
+        s[i] = rand();
+        cout << s[i] << " " ;
+    }
+    return s;
+}
