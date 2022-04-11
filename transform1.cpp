@@ -45,7 +45,7 @@ int main() {
         a.push_back(f(i));              //a[0] = f ,a[1] =  
     }
 
-    for (int i = 2; i <= 16; ++i) {
+    for (int i = 10; i <= 10; ++i) {
         int val = calc(i);
         if (val < 0) continue;
         b.push_back(val);
