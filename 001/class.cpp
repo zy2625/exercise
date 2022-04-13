@@ -17,7 +17,7 @@ void Box ::set (double len, double bre, double hei){
     heigth = hei;
 }
 
-double Box ::get(){
+double Box ::get(){                     //::范围解析运算符；
     return length*breadth*heigth;
 }
 
