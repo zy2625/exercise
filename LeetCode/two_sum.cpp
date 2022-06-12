@@ -1,0 +1,22 @@
+#include<iostream>
+#include<vector>
+using namespace std;
+
+vector<int> twoSum(vector<int>& nums, int target);
+
+int main(){
+    vector<int>nums(5,0);
+    int target;
+    nums = {2, 7, 11, 15};
+    target = 9;
+    cout >> twoSum(nums,target);
+    return 0;
+}
+
+ vector<int> twoSum(vector<int>& nums, int target) {
+        for (int i = 0;i< nums.size();i++ ){
+            for(int j = i+1;j< nums.size();j++){
+                if((nums[i]+nums[j])==target)break;
+            }
+        }
+        return [i,j];
